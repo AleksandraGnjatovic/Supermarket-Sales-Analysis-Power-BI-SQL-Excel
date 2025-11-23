@@ -48,18 +48,20 @@ The `sales_analysis.sql` file contains SQL queries analyzing the dataset. Each q
 
 ## Excel Pivot Tables
 
-The `Excel/sales_pivot.xlsx` file contains pivot tables that visualize the results of the SQL analysis:  
+The sales_dashboard.xlsx file contains the original dataset along with a set of Excel pivot tables and visualizations used to analyze key sales metrics. The analysis includes the following pivot tables: 
 
-1. Total sales by branch  
-2. Top products by revenue  
-3. Sales by customer type  
-4. Sales trends by month/year  
-5. Reward points by customer type  
+1. Total sales by branch and city 
+2. Sales by product category  
+3. Quantity sold by product  
+4. Monthly sales trend 
+5. Customer type / Gender analysis 
 
 **Visualization types:**  
-- Bar charts for top products and top cities  
-- Line charts for monthly sales trends  
-- Pie charts for customer type and product category  
+- Bar charts  
+- Line charts 
+- Pie charts for
+- The dashboard is fully interactive, with the KPI dynamically connected to all slicers and charts.
+
 
 ---
 
@@ -94,4 +96,5 @@ This project demonstrates the full workflow from raw data to analysis and visual
 - SQL analysis and aggregations  
 - Pivot tables and Excel visualizations  
 - Interactive Power BI dashboards  
+
 - Business understanding and interpretation of results
