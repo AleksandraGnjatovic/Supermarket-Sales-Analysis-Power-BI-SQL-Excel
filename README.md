@@ -67,16 +67,25 @@ The sales_dashboard.xlsx file contains the original dataset along with a set of 
 
 ## Power BI Dashboard
 
-The `PowerBI/sales_dashboard.pbix` file contains an interactive dashboard with slicers for:  
+An interactive Power BI dashboard visualizing sales data.
+
+## Key Metrics
+- **Total Sales:** Sum of Total Price  
+- **Total Quantity Sold:** Sum of Quantity  
+
+## Filters (Slicers)
 - Branch  
 - City  
+- Product Category  
 - Customer Type  
 
-Visualizations include:  
-- Top products by TotalPrice  
-- Sales trends by month/year  
-- Total sales and reward points (Card visuals)  
-- Customer type and product category (Pie charts)  
+## Visualizations
+1. **Sales by Branch and City** – Stacked Column Chart  
+2. **Monthly Sales Trend** – Line Chart  
+3. **Sales by Product Category** – Clustered Column Chart  
+4. **Quantity Sold by Product** – Pie Chart  
+
+_All visuals are interactive: selecting options in slicers updates the KPI metrics and charts dynamically._
 
 ---
 
@@ -98,3 +107,4 @@ This project demonstrates the full workflow from raw data to analysis and visual
 - Interactive Power BI dashboards  
 
 - Business understanding and interpretation of results
+
